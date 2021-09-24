@@ -1,0 +1,229 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: "Avenir Next";
+  }
+
+.menu-list li{
+  float:left;
+}
+
+li {
+  list-style: none;
+}
+
+.heading {
+  font-size: 24px;
+}
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  font-size: 36px;
+  padding: 20px 40px;
+  text-align: center;
+  background-color: #26d0c9;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom:1px solid black;
+  
+}
+
+nav li{
+  padding: 33px 20px;
+  text-align: center;
+  display: inline;
+  list-style-type: none;
+}
+
+nav {
+  background-color: #faf8f8ef;
+  padding:5px;
+  position:sticky;
+  top:0;
+  text-align: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+  
+   
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(12, 11, 11);
+  margin-right: 100px;
+  cursor:pointer;
+  
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.main-title{
+  text-align: center;
+}
+
+.btn {
+  padding: 12px 20px;
+  color:black;
+  display: inline-block;
+  opacity: 0.8;
+  text-align: center;
+  text-decoration: none;
+}
+
+.seemore{
+  text-decoration: underline;
+  text-align: center;
+  margin:0 70px;
+}
+
+.btn:hover {
+  background:pink;
+  text-decoration: none;
+}
+
+.message {
+  padding: 15px 20px;
+  background-color:#26d0c9;
+  cursor: pointer;
+}
+
+
+
+.lesson-wrapper{
+  border-bottom: black solid 1px;
+}
+.lessons {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 1px solid black;
+  
+}
+
+.lesson {
+  width: 32%;
+  padding: 20px;
+  background-color:#26d0c9;
+  border-radius: 10px;
+  
+}
+
+.lesson:hover {
+  cursor: pointer;
+  background:pink;
+}
+
+.bot {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  margin-left: 370px;
+  padding-top: 100px; 
+}
+
+
+
+/*tutor*/
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+
+}
+.mentor {
+  float: left;
+  border-bottom: black solid 1px;
+  
+}
+
+.kolom .deskripsi {
+  font-size:20px;
+  font-weight: bold;
+  font-family: 'comic sans ms'
+  color: #161616;
+}
+
+.mentor-list {
+  width: 100%;
+  position:relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.kartu-mentor{
+  width: 20%;
+  margin:0 auto;
+}
+
+.kartu-mentor img{
+  width: 80%;
+  border-radius: 50%;
+
+}
+
+.kartu-tutor p {
+  font-family: 'comic sans ms';
+  font-weight: 800;
+  font-size: 25px;
+  text-align:center;
+  color:#364f6b;
+}
+
+
+.tengah{
+  text-align: center;
+  width: 100%;
+}
+
+/* footer */
+
+.footer {
+  margin: 100px 10px;
+  height: 20px;
+}
+
+.footer-logo {
+  float:left;
+  margin-left: 100px;
+  font-family: 'comic sans ms';
+  font-size: 40px;
+}
+
+.footer-list {
+  float:right;
+}
+.footer-list p{
+  text-decoration: underline;
+}
+
+.footer-list ul{
+  margin-right: 100px;
+  
+}
+
+.footer-list a {
+  margin-left: 30px;
+  color: black;
+  font-weight: bold;
+}
+
